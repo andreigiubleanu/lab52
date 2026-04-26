@@ -19,4 +19,5 @@ steps:
   displayName: 'Run a multi-line script'
 
 - script: |
-    cat file1
+    Get-Content file1
+  displayName: 'Display file 1 content'
